@@ -27,6 +27,8 @@ Then import the package and use on a NetworkX graph:
 
     G = nx.karate_club_graph()
     partition = detect_communities(G)
+    # Randomized node order
+    partition = detect_communities(G, randomized=True)
 
 See the Jupyter notebook for an example of visualising with matplotlib.
 
