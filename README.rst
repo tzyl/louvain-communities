@@ -17,7 +17,9 @@ First install the package using::
 
     python setup.py install
 
-Then import the package and use on a NetworkX graph::
+Then import the package and use on a NetworkX graph:
+
+.. code:: python
 
     import networkx as nx
     from louvain import detect_communities
